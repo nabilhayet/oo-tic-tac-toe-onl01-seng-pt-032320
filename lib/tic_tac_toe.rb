@@ -102,4 +102,9 @@ class TicTacToe
       nil 
   end
   end 
+  
+  def play 
+    until over?
+    if winner
+      puts "congratulate #{winner}"
 end 
