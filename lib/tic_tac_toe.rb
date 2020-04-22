@@ -95,6 +95,6 @@ class TicTacToe
   end 
     
   def winner 
-    
+    token=won?
   end
   end 
