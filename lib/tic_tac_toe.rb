@@ -107,10 +107,10 @@ class TicTacToe
     until over?
     turn
     end 
-    if winner
+      if winner
       puts "congratulate #{winner}"
-    else
+      else
       puts "Cat's game "
-    end 
-end 
+      end 
+  end 
 end 
