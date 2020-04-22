@@ -107,4 +107,7 @@ class TicTacToe
     until over?
     if winner
       puts "congratulate #{winner}"
+    else 
+      puts "Cat's game "
+    end 
 end 
