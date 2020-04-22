@@ -87,7 +87,7 @@ class TicTacToe
   end 
   
   def over?
-    
+    if full? || won?
   end 
     
   end 
